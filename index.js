@@ -10,7 +10,7 @@ const {
 const cors = require('cors');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //para que se puedan recibir json en as respuestas del http
 app.use(express.json());
