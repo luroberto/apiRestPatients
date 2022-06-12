@@ -9,58 +9,58 @@
 
 # PATIENTS
 
-## Get
+#### GET
 
 - https://api-rest-patients.herokuapp.com/api/v1/patients
 - https://api-rest-patients.herokuapp.com/api/v1/patients/${id}
 
-## POST 
+#### POST 
 
 - https://api-rest-patients.herokuapp.com/api/v1/patients
 
-## PATCH 
+#### PATCH 
 
 - https://api-rest-patients.herokuapp.com/api/v1/patients/${id}
 
-## DELETE 
+#### DELETE 
 
 - https://api-rest-patients.herokuapp.com/api/v1/patients/${id}
 
 # USERS
 
-## GET
+#### GET
 
 - https://api-rest-patients.herokuapp.com/api/v1/users
 - https://api-rest-patients.herokuapp.com/api/v1/users/${id}
 
-## POST
+#### POST
 
 - https://api-rest-patients.herokuapp.com/api/v1/users
 
-## PATCH
+#### PATCH
 
 - https://api-rest-patients.herokuapp.com/api/v1/users/${id}
 
-## DELETE
+#### DELETE
 
 - https://api-rest-patients.herokuapp.com/api/v1/users/${id}
 
 # OFFICES
 
-## GET
+#### GET
 
 - https://api-rest-patients.herokuapp.com/api/v1/offices
 - https://api-rest-patients.herokuapp.com/api/v1/offices/${id}
 
-## POST
+#### POST
 
 - https://api-rest-patients.herokuapp.com/api/v1/offices
 
-## PATCH
+#### PATCH
 
 - https://api-rest-patients.herokuapp.com/api/v1/offices/${id}
 
-## DELETE
+#### DELETE
 
 - https://api-rest-patients.herokuapp.com/api/v1/offices/${id}
 
