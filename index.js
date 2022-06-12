@@ -16,18 +16,18 @@ const port = 3000;
 app.use(express.json());
 
 // posible solución para posible problema de CORS
-// const whitelist = ['http://localhost:8080', 'https://myapp.co']; //lista de dominios permitidos EJEMPLOS
-// const options = {
-//   origin: (origin, callback) => {
-//     if (whitelist.includes(origin) || !origin) {
-//       callback(null, true);
-//     } else {
-//       callback(new Error('no permitido'));
-//     }
-//   },
-// };
-// app.use(cors(options));
-app.use(cors());
+const whitelist = ['http://localhost:8080', 'https://myapp.co']; //lista de dominios permitidos EJEMPLOS
+const options = {
+  origin: (origin, callback) => {
+    if (whitelist.includes(origin) || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('no permitido'));
+    }
+  },
+};
+app.use(cors(options));
+// app.use(cors());
 
 // de esta forma hago funcionar el router
 routerApi(app);
