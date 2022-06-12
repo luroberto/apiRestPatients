@@ -38,7 +38,7 @@ app.use(boomErrorHandler);
 app.use(errorHandler);
 
 //rutas de test para verificar que funciona el servidor
-app.get('/', (req, res) => res.send('My first server!'));
+app.get('/', (req, res) => res.send('API REST created by Luciana Roberto - /api/v1/users/ - /api/v1/users/:id - /api/v1/offices - /api/v1/offices/:id - /api/v1/patients - /api/v1/patients/:id'));
 app.get('/new-route', (req, res) => res.send('I am a new route!'));
 
 app.listen(port, () => console.log(`My app listening on port ${port}!`));
